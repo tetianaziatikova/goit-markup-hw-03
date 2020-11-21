@@ -264,6 +264,10 @@ img {
     padding-bottom: 94px;
 }
 
+.team-section {
+    padding-top: 94px;
+}
+
 .section-title {
     margin-top: 0;
     margin-bottom: 0;
@@ -279,8 +283,7 @@ img {
 .section-title-team {
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 94px;
-
+    
     color: var(--title-text-color);
 
     font-weight: 700;
