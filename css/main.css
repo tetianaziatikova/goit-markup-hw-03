@@ -64,8 +64,7 @@ img {
 
 .studio {
     display: flex;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .studio-black {
@@ -416,11 +415,13 @@ img {
 }
 
 /* Footer */
-
+.footer-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 .footer-web {
     display: flex;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
@@ -444,7 +445,7 @@ img {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
-    padding-bottom: 60px;
+    padding-bottom: 0px;
 }
 
 .footer-contact .link-contact {
