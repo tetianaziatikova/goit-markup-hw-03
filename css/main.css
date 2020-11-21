@@ -337,7 +337,10 @@ img {
 
 .text-portfolio {
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+
     font-size: 16px;
     line-height: 1.87;
 }
@@ -376,6 +379,8 @@ img {
     margin-bottom: 30px;
     margin-right: 30px;
     width: 370px;
+
+    border: 1px solid #EEEEEE;
 }
 
 .portfolio-item:nth-child(3n) {
@@ -410,8 +415,10 @@ img {
 }
 
 .title-portfolio {
-    margin-top: 20px;
+    margin-top: 24px;
     margin-bottom: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
 
     color: var(--title-text-color);
 
