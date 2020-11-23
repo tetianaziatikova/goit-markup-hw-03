@@ -232,7 +232,7 @@ img {
 
 .section-title {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 50px;
 
     color: var(--title-text-color);
 
@@ -254,6 +254,11 @@ img {
     text-align: center;
 }
 
+.work-section {
+    padding-top: 50px;
+    padding-bottom: 94px;
+}
+
 .work-list {
     display: flex;
     justify-content: space-between;
@@ -263,8 +268,8 @@ img {
 }
 
 .work-list > .work-item {
-    margin-top: 50px;
-    margin-bottom: 94px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .feature-list {
@@ -335,17 +340,22 @@ img {
     margin-right: 30px
 }
 
+/* Portfolio.html */
+
+.portfolio-box {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
 .text-portfolio {
-    margin-top: 0;
-    margin-bottom: 24px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0;
 
     font-size: 16px;
     line-height: 1.87;
 }
 
-/* Portfolio.html */
 .portfolio-section {
     padding-top: 94px;
 }
@@ -415,10 +425,10 @@ img {
 }
 
 .title-portfolio {
-    margin-top: 24px;
+    margin-top: 0;
     margin-bottom: 4px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 0;
+    margin-right: 0;
 
     color: var(--title-text-color);
 
